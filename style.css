@@ -1,0 +1,14 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    margin: 0px;
+}
+
+#top_banner{
+    display: flex;
+}
+
+.half_width{
+    width: 50%;
+}
