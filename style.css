@@ -15,6 +15,7 @@ body {
 .half_width {
     width: 50%;
     margin-left: 10%;
+    margin-right: 2%;
 }
 
 h1 {
@@ -94,4 +95,23 @@ h2{
 }
 .download_resum:hover{
     background-image: linear-gradient(40deg, tomato, orange);
+}
+
+.third_section{
+    display: flex;
+    padding-bottom: 150px;
+}
+.third_section p{
+    font-size: 20px;
+    color: dimgray;
+    font-weight: 600;
+    text-align: justify;
+    margin-right: 5%;
+}
+.third_section h1{
+    width: 100%;
+}
+.box_shadow{
+    box-shadow: 5px 3px 10px black;
+    padding: 20px 30px 20px 30px;
 }
