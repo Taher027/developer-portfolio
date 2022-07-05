@@ -23,22 +23,28 @@ h1 {
     text-transform: capitalize;
 
 }
+h3{
+    font-size: 35px;
+    font-weight: 500;
+
+}
 
 .orange-color {
     color: orange;
 }
 
-#top_banner p {
+.second_section p{
     font-size: 20px;
     color: dimgray;
     font-weight: 600;
     text-align: justify;
+    margin-right: 5%;
 }
 
 .hire_me_button {
     text-decoration: none;
     display: inline-block;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 500;
     padding: 10px 40px;
     background-image: linear-gradient(90deg, orange, tomato);
@@ -58,4 +64,34 @@ h1 {
 
 .dream-big {
     display: flex;
+}
+
+/* start second section*/
+
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+h2{
+    font-size:30px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.download_resum{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 40px;
+    background-image: linear-gradient(90deg, orange, tomato);
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.download_resum:hover{
+    background-image: linear-gradient(40deg, tomato, orange);
 }
